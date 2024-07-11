@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.alura.forumhub.topico.DadosAtualizacaoTopico;
-import br.com.alura.forumhub.topico.DadosCadastroTopico;
-import br.com.alura.forumhub.topico.DadosListagemTopico;
-import br.com.alura.forumhub.topico.Topico;
-import br.com.alura.forumhub.topico.TopicoRepository;
+import br.com.alura.forumhub.domain.topico.DadosAtualizacaoTopico;
+import br.com.alura.forumhub.domain.topico.DadosCadastroTopico;
+import br.com.alura.forumhub.domain.topico.DadosListagemTopico;
+import br.com.alura.forumhub.domain.topico.Topico;
+import br.com.alura.forumhub.domain.topico.TopicoRepository;
 import jakarta.validation.Valid;
 
 @RestController
